@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- START OF HEAD PART  -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- ADDING A SUITABLE TITLE TO OUR WEBSITE  -->
+    <title>Flavours 101</title>
+
+    <!-- LINK FOR EXTERNAL CSS  -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- LINK FOR UTILITY CLASS  -->
+    <link rel="stylesheet" href="utilities.css">
+
+    <!-- LINKS FOR FONTS  -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- LINK FOR MEDIA QUERIES  -->
+    <!-- MAKING RESPONSIVE  FOR I-PAD -->
+    <link rel="stylesheet"  href="tablet.css">
+
+    <!-- MAKING RESPONSIVE  FOR PHONE -->
+    <link rel="stylesheet"  href="phone.css">
+
+</head>
+<!-- END OF HEAD PART  -->
+
+<!-- START OF BODY PART  -->
+
+<body>
+    <!-- ADDING A HEADER SECTION  -->
+    <header>
+        <!-- ADDING A CONTAINER INSIDE HEADER  -->
+        <div class="container">
+            <!-- ADDING A NAVIGATION BAR TOP  -->
+            <nav class="flex justify-content items-center">
+                <!-- DIVIDING THE NAV INTO TWO PARTS  -->
+                <!-- LEFT PART FOR LOGO  -->
+                <div class="left flex items-center">
+                    <!-- ADDING A LOGO TO THE WEBSITE   -->
+                    <img id="logo" src="logo.png" alt="ui | Republic">
+                    <!-- <h3 id="log"> FLAVOURS<span> 101</span></h3> -->
+                </div>
+                <!-- RIGHT PART FOR LIST  -->
+                <div class="right flex">
+                    <!-- CREATING A LIST FOR NAVIGATION BAR  -->
+                    <ul class="flex justify-content ">
+                        <li><a id="head" href="#ourfood">OUR FOOD</a></li>
+                        <li><a id="head" href="#ourrestaurant">OUR RESTAURANT</a></li>
+                        <li><a id="head" href="#ourvalues">OUR VALUES</a></li>
+                        <li><a id="head" href="#come">RESERVATIONS</a></li>
+
+                    </ul>
+                    <!-- ADDING A CONTACT BUTTON  -->
+                    <div class="rightmost flex">
+                        <button class="btn btn-primary" id="contact">Contact</button>
+                    </div>
+                </div>
+            </nav>
+
+            <div>
+                <h1 class="main inline_block">OUR PLACE</h1>
+                <h2 id=header class="flex justify  ">JUST <br>
+                    GREAT <br>
+                    FOOD</h2>
+            </div>
+        </div>
+    </header>
+    <!-- END OF HEADER SECTION  -->
+
+    <!-- START OF OUR FOOD SECTION  -->
+    <section id="ourfood">
+        <!-- CREATING A CONTAINER  -->
+        <h1 id="our">OUR FOOD</h1>
+        <div id="second" class="container flex">
+            <!-- ADDING THE SUITABLE TITLE TO THE PAGE  -->
+            <!-- DIVIDING THE CONTAINER INTO THREE PARTS : LEFT, MID & RIGHT -->
+
+            <!-- LEFT PART  -->
+            <div class="left flex justify-content ">
+                <img src="left.png" alt="Loading">
+                <h3 id="leftheading">ITS <br>
+                    SIMPLE <br>
+                    <span>NO FUSS JUST GREAT FLAVOURS</span>
+                </h3>
+            </div>
+
+            <!-- MID PART  -->
+            <div class="mid flex justify-content ">
+                <img src="mid.png" alt="Loading">
+                <h3 id="midheading">ITS <br>
+                    FRESH
+                    <br>
+                    <span>NO CHEMICALS LOCALLY SOURCED</span>
+                </h3>
+
+            </div>
+
+            <!-- RIGHT PART  -->
+            <div class="right flex justify-content ">
+                <img src="right.png" alt="Loading">
+                <h3 id="rightheading">
+                    ITS
+                    INDULGENT <br>
+                    <span>TREATS HAND-MADE FOR YOU </span>
+                </h3>
+
+            </div>
+        </div>
+    </section>
+    <!-- END OF OUR FOOD SECTION  -->
+
+    <!-- START OF OUR RESTAURANT SECTION  -->
+    <section id="ourrestaurant">
+        <!-- ADDING A CONTAINER  -->
+        <div class="container">
+            <!-- DIVIDING THE CONTAINER INTO LEFT AND RIGHT PART -->
+            <div class="left ">
+                <h1 id="ourres">OUR RESTAURANT</h1>
+                <p id="ourrestaurant">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
+                    laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation
+                    ullamcorper suscipit.
+                </p>
+
+                <h1 id="ourres">OUR PEOPLE</h1>
+                <div class="people">
+                    <!-- OWNER 1  -->
+                    <img id="owner1" src="owner1.png" alt="Owner1">
+                    <p id="ourrestaurant1">Lorem ipsum dolor sit amet consectetur adipisicing.
+                        Lorem ipsum dolor sit amet consectetur.
+                    </p>
+                    <hr id="hr1">
+                    <!-- OWNER 2   -->
+                    <img id="owner2" src="owner2.png" alt="Owner2">
+                    <p id="ourrestaurant2">Lorem ipsum dolor sit amet consectetur adipisicing.
+                        Lorem ipsum dolor sit amet consectetur.
+                    </p>
+                    <hr id="hr2">
+
+                    <!-- OWNER 3  -->
+                    <img id="owner3" src="owner3.png" alt="Owner3">
+                    <p id="ourrestaurant3">Lorem ipsum dolor sit amet consectetur adipisicing.
+                        Lorem ipsum dolor sit amet consectetur.
+                    </p>
+                    <hr id="hr3">
+                </div>
+
+            </div>
+
+            <div class="right flex ">
+                <!-- DIVDING RIGHT INTO TOP AND BOTTOM  -->
+                <div class="top" >
+                    <img id="topimg" src="img1.png" alt="Loading">
+
+                </div>
+
+                <div class="bottom">
+                    <img id="bottomimg" src="img2.png" alt="Loading">
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+    <!-- END OF OUR RESTAURANT SECTION -->
+
+    <!-- START OF OUR VALUES SECTION  -->
+    <section id="ourvalues">
+        <h1 id="ourvaluesection">our VALUES</h1>
+        <div class="container">
+            <h2 id="ourval">
+                <li>LOCALLY SOURCED</li>
+            </h2>
+            <p id="values">Lorem ipsum dolor sit amet consectetur.</p>
+            <h2 id="ourval">
+                <li>HAND CRAFTED BY SKILLED STAFF</li>
+            </h2>
+            <p id="values">Lorem ipsum dolor sit amet consectetur.</p>
+            <h2 id="ourval">
+                <li>NO WASTE, NO TOXINS</li>
+            </h2>
+            <p id="values">Lorem ipsum dolor sit amet consectetur.</p>
+            <h2 id="ourval">
+                <li>SUPERFAST DELIVERY SERVICES</li>
+            </h2>
+            <p id="values">Lorem ipsum dolor sit amet consectetur.</p>
+        </div>
+    </section>
+    <!-- END OF VALUES SECTION  -->
+
+    <!-- START OF COME-BREAK BREAD -->
+    <section id="come">
+        <h2 id="break">COME, BREAK-BREAD</h1>
+            <p id="breaking">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod
+                tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam wisi enim ad minim
+                veniam, quis nostrud exerci tation ullamcorper suscipit.
+            </p>
+            <h4 id="reserve">Make a Reservation, Call (01482)-987456 or</h4>
+            <button id="reservation" class="btn">BOOK ONLINE</button>
+    </section>
+    <!-- END OF COME BREAK BREAD SECTION  -->
+
+    <!-- START OF VISIT US SECTION -->
+    <section id="visit">
+        <!-- <h1 id="our">VISIT US</h1> -->
+        <p id="visit">
+            <span id="uniq">VISIT US</span>
+            Lorem ipsum dolor,
+            Sit amet consectetuer,
+            Adipiscing elit,
+            Sed diam
+            HU18 1LE
+            <br>
+            <span>
+
+                OPEN DAILY <br>
+                11am - until late
+            </span>
+        </p>
+    </section>
+    <!-- END OF VISIT US SECTION  -->
+
+    <!-- START OF TOWARDS THE END SECTION -->
+    <section id="end">
+        <div class="right flex">
+            <!-- CREATING A LIST FOR NAVIGATION BAR  -->
+            <ul class="flex justify-content ">
+                <li><a class="end" id="end1" href="#ourfood">OUR FOOD</a></li>
+                <li><a class="end" id="end2" href="#ourvalues">OUR VALUES</a></li>
+                <li><a class="end" id="end3" href="#ourrestaurant">OUR PEOPLE</a></li>
+                <li><a class="end" id="end4" href="#ourrestaurant">OUR RESTAURANT</a></li>
+                <li><a class="end" id="end5" href="#ourservice">OUR SERVICE</a></li>
+                <li><a class="end" id="end6" href="#ourbrand">OUR BRAND</a></li>
+            </ul>
+
+        </div>
+        <h1 class="inline_block" id="ourplace">OUR PLACE</h1>
+
+    </section>
+    <!-- END OF TOWARDS THE END SECTION  -->
+
+
+    <!-- START OF FOOTER SECTION  -->
+    <footer>
+        <div class="center">
+            copyright &copy;www.flavours101.com.All rights reserved
+        </div>
+    </footer>
+
+</body>
+<!-- END OF BODY PART  -->
+
+</html>

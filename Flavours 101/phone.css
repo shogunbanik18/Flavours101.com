@@ -1,0 +1,332 @@
+/* FOR MOTO-G4 SERIES  */
+/* FOR MOTO-G4 SERIES  */
+@media (max-width: 640px)
+{
+    /* TARGETTING THE LINK HEADING  */
+    .right ul li a#head {
+        font-size: 10px;
+        padding: 0px 17px;
+    }
+
+    /* TARGETTING THE CONTACT BUTTON  */
+    .btn {
+        font: 11px;
+        position: absolute;
+        margin-left: -372px;
+        margin-top: 81px;
+    }
+    /* TARGETTING THE HEADING H1  */
+
+    h1 {
+        margin-left: 220px;
+        /* margin-top: 130px; */
+    }
+            /* OUR FOOD SECTION  */
+    section#ourfood {
+        min-width: 700px;
+        max-width: 1400px;
+        height: 3531px;
+        background-color: var(--back);
+    }
+    /* TARGETTING THE TITLE OUR FOOD  */
+    h1#our{
+        margin-left: 180px;
+    }
+    /* TARGETTING THE LEFT IMAGE  */
+    .left img {
+        padding: 50px;
+        width: 100%;
+        height: 80%;
+        margin-left: -5px;
+    }
+    /* TARGETTING THE MID IMAGE  */
+    .mid img {
+        padding: 50px;
+        width: 100%;
+        height: 80%;
+        margin-left: -5px;
+    }
+    /* TARGETTING THE RIGHT IMAGE  */
+    .right img {
+        padding: 50px;
+        width: 100%;
+        height: 80%;
+        margin-left: -5px;
+    }
+    /* TAGETTING THE LEFT HEADING  */
+    h3#leftheading {
+        margin-left: 170px;
+        margin-top: 644px;
+        width: 300px;
+        height: 300px;
+        text-align: center;
+        font-size: 25px;
+        padding-top: 70px;
+    }
+
+    h3#midheading {
+        margin-left: 170px;
+        margin-top: 655px;
+        width: 300px;
+        height: 300px;
+        text-align: center;
+        font-size: 25px;
+        padding-top: 70px;
+    }
+
+    h3#rightheading {
+        margin-left: 170px;
+        margin-top: 640px;
+        width: 300px;
+        height: 300px;
+        text-align: center;
+        font-size: 25px;
+        padding-top: 70px;
+    }
+        /* OUR RESTAURANT SECTION  */
+        /* TARGETTING THE HEADING PART  */
+    h1#ourres {
+        color: white;
+        border: none;
+        font-size: 61px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin-top: 0px;
+        margin-left: 57px;
+        padding: 24px 15px;
+    }
+    /* TARGETTING THE TOP IMAGE OF RESTAURANT  */
+    .top img#topimg {
+        position: absolute;
+        width: 700px;
+        height: 600px;
+        margin-top: 387px;
+        margin-left: -15px;
+        flex-direction: column;
+    }
+    /* TARGETTING THE BOTTOM IMAGE OF RESTAURANT  */
+    .bottom img#bottomimg {
+        position: absolute;
+        width: 700px;
+        height: 600px;
+        margin-top: 980px;
+        margin-left: -15px;
+        flex-direction: column;
+    }
+        /* OUR RESTAURANT 1 */
+    .people p#ourrestaurant1 {
+        position: absolute;
+        color: var(--primary);
+        /* text-decoration: 3px solid white underline; */
+        text-underline-offset: 15px;
+        width: 260px;
+        height: 100px;
+        font-size: 16px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin-left: 218px;
+        margin-top: 0px;
+        padding: 3px 3px;
+    }
+        /* OUR RESTAURANT 2*/
+    .people p#ourrestaurant2 {
+        position: absolute;
+        color: var(--primary);
+        /* text-decoration: 3px solid white underline; */
+        text-underline-offset: 15px;
+        width: 260px;
+        height: 100px;
+        font-size: 16px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin-left: 218PX;
+        margin-top: 126px;
+        padding: 3px 3px;
+    }
+        /* OUR RESTAURANT 3 */
+    .people p#ourrestaurant3 {
+        position: absolute;
+        color: var(--primary);
+        /* text-decoration: 3px solid white underline; */
+        text-underline-offset: 15px;
+        width: 260px;
+        height: 100px;
+        font-size: 16px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin-left: 218PX;
+        margin-top: 257px;
+        padding: 3px 3px;
+    }
+    /* TARGETTING THE PARA PART  */
+p#ourrestaurant {
+    width: 384px;
+    color: white;
+    display: flex;
+    MARGIN-LEFT: 140px;
+}
+        /* OUR VALUES SECTION  */
+    section#ourvalues {
+        max-width: 1400px;
+        height: 800px;
+        width: 700px;
+        background-image: url(section.png);
+    }
+    /* TARGETTING THE HEADING  */
+    h1#ourvaluesection {
+        margin-left: 71px;
+        padding-top: 45px;
+        font-size: 100px;
+    }
+    /* TARGETTING THE INSUDE SUB-HEADING PART  */
+    h2#ourval {
+        margin-left: 86px;
+        padding-top: 22px;
+        font-size: 28px;
+        margin-top: 0px;
+    }
+
+        /* RESERVATION SECTION  */
+    h2#break {
+        font-size: 35px;
+        margin-left: 115px;
+    }
+    /* TARGETTING THE PARAGRAPH PART  */
+    p#breaking {
+        color: var(--primary);
+        width: 500px;
+        height: 100px;
+        margin-left: 113px;
+    }
+    /* TARGETTING THE MAKE A RESERVATION HEADING PART  */
+    h4#reserve {
+        height: 43px;
+        width: 663px;
+        color: var(--primary);
+        font-size: 28px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin-left: 80px;
+    }
+    /* TAGETTING THE BOOK ONLINE BUTTON  */
+    #reservation {
+        position: absolute;
+        width: 224px;
+        height: 66px;
+        border-color: var(--primary);
+        border-radius: 0px;
+        margin-left: 240px;
+        margin-top: 20px;
+    }
+
+            /* COME SECTION  */
+    section#come {
+        max-width: 1400px;
+        height: 400px;
+        WIDTH: 700px;
+        background-color: #42363A;
+    }
+
+            /* MAP SECTION  */
+
+    section#visit {
+            max-width: 1400px;
+            height: 656px;
+            width: 700px;
+            background-image: url(map.png);
+            }
+            /* TARGETTING THE PARAGRAPH OF VISIT US SECTION  */
+            section#visit p#visit {
+                position: absolute;
+                width: 393px;
+                height: 388px;
+                color: white;
+                padding: 117px 27px;
+                margin-top: 122px;
+                margin-left: 91px;
+                box-sizing: border-box;
+                font-size: 20px;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                background-color: rgb(106, 139, 15);
+                clip-path: polygon(0 0, 75% 0 ,100% 50%,75% 100% ,0 100%);
+                /* border-radius: 20px; */
+                transi: ;
+                font-size: 23px;
+                display: flex;
+            }
+            /* TARGETTING THE VISIT US SECTION  */
+            section#visit p#visit span#uniq {
+                font-size: 50px;
+                padding: 46px 9px;
+                padding-bottom: 5px;
+                font-family: 'Roboto', sans-serif;
+                font-weight: bold;
+                position: absolute;
+                color: white;
+                display: flex;
+                margin-top: -126px;
+                margin-left: 10px;
+            }
+            /* TARGETTING THE VISIT TIME SECTION  */
+            section#visit p#visit span {
+                font-size: 30px;
+                padding: 6px -4px;
+                padding-bottom: -1px;
+                font-family: 'Roboto', sans-serif;
+                font-weight: bold;
+                position: absolute;
+                color: white;
+                display: flex;
+                margin-top: 129px;
+                margin-left: -11px;
+            }
+
+
+    /* TOWARDS THE END SECTION  */
+    section#end {
+        max-width: 1400px;
+        height: 300px;
+        WIDTH: 700px;
+        background-image: url(pink.png);
+    }
+/* TOWARDS END SECTION  */
+a#end1 {
+        margin-top: 70px;
+        margin-left: 20px;
+}
+    
+
+a#end2{
+    
+    margin-top: 70px;
+    margin-left: 200px;
+}
+a#end3 {
+    
+    margin-top: 70px;
+    margin-left: 380px;
+}
+a#end4 {
+    margin-left: 20px;
+    margin-top: 180px;
+}
+
+a#end5{
+    margin-top: 180px;
+    margin-left:200px ;
+}
+
+a#end6{
+    margin-top: 180px;
+    margin-left:380px ;
+}
+
+h1#ourplace {
+    margin-left: 500px;
+}
+
+
+    /* FOOTER SECTION  */
+    footer {
+        background-color: var(--back);
+        color: var(--primary);
+        padding: 9px 20px;
+        width: 700px;
+        text-align: center;
+    }
+}
