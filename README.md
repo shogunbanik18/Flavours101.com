@@ -1,2 +1,2 @@
 # Flavours101.com
-Flavours-101 is an Food website 
+Flavours-101 is a Online Food-ordering website
