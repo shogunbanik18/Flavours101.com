@@ -1,0 +1,396 @@
+/* FOR MOTO-G4 SERIES  */
+/* FOR MOTO-G4 SERIES  */
+@media (max-width: 640px)
+{
+    header {
+        width: 1200px;
+        max-width: 1400px;
+    }
+    /* TARGETTING THE LINK HEADING  */
+    .right ul li a#head {
+        font-size: 16px;
+        padding: 0px 17px;
+        margin-right: 49px;
+    }
+
+    /* TARGETTING THE CONTACT BUTTON  */
+    .btn {
+        font: 11px;
+        position: absolute;
+        margin-left: -814px;
+        margin-top: 600px;
+    }
+    /* TARGETTING THE HEADING H1  */
+
+    h1 {
+        margin-left: 220px;
+        /* margin-top: 130px; */
+    }
+            /* OUR FOOD SECTION  */
+    section#ourfood {
+        width: 1200px;
+        max-width: 1200px;
+        min-width: 700px;
+        /* max-width: 1400px; */
+        height:6000px;
+        background-color: var(--back);
+    }
+    /* TARGETTING THE TITLE OUR FOOD  */
+    h1#our{
+        margin-left: 180px;
+    }
+    /* TARGETTING THE LEFT IMAGE  */
+    .left img {
+        padding: 50px;
+        width: 100%;
+        height: 80%;
+        margin-left: -5px;
+    }
+    /* TARGETTING THE MID IMAGE  */
+    .mid img {
+        padding: 50px;
+        width: 100%;
+        height: 80%;
+        margin-left: -5px;
+    }
+    /* TARGETTING THE RIGHT IMAGE  */
+    .right img {
+        padding: 50px;
+        width: 100%;
+        height: 80%;
+        margin-left: -5px;
+    }
+    /* TAGETTING THE LEFT HEADING  */
+    h3#leftheading {
+        margin-left: 232px;
+        margin-top: 800px;
+        width: 500px;
+        height: 500px;
+        text-align: center;
+        font-size: 77px;
+        padding-top: 70px;
+    }
+    /* ADDING A HOVER EFFECT  */
+    h3#leftheading:hover{
+        margin-left: 232px;
+        margin-top: 800px;
+        width: 500px;
+        height: 500px;
+        color: rgb(92, 5, 5);
+    }
+
+    h3#midheading {
+        margin-left: 232px;
+        margin-top: 800px;
+        width: 500px;
+        height: 500px;
+        text-align: center;
+        font-size: 77px;
+        padding-top: 70px;
+    }
+    /* ADDING A HOVER EFFECT  */
+    h3#leftheading:hover{
+        margin-left: 232px;
+        margin-top: 800px;
+        width: 500px;
+        height: 500px;
+        color: rgb(92, 5, 5);
+    }
+
+    h3#rightheading {
+        margin-left: 232px;
+        margin-top: 800px;
+        width: 500px;
+        height: 500px;
+        text-align: center;
+        font-size: 77px;
+        padding-top: 70px;
+    }
+        /* OUR RESTAURANT SECTION  */
+        /* TARGETTING THE HEADING PART  */
+    h1#ourres {
+        color: white;
+        border: none;
+        font-size: 65px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin-top: 0px;
+        margin-left: 270px;
+        padding: 24px 15px;
+    }
+    /* TARGETTING THE TOP IMAGE OF RESTAURANT  */
+    .top img#topimg {
+        position: absolute;
+        width: 700px;
+        height: 600px;
+        margin-top: 387px;
+        margin-left: 205px;
+        flex-direction: column;
+    }
+    /* TARGETTING THE BOTTOM IMAGE OF RESTAURANT  */
+    .bottom img#bottomimg {
+        position: absolute;
+        width: 700px;
+        height: 600px;
+        margin-top: 980px;
+        margin-left: 205px;
+        flex-direction: column;
+    }
+        /* OUR RESTAURANT 1 */
+        section#ourrestaurant {
+            min-width: 700px;
+            max-width: 1200px;
+            height: 1981px;
+            width: 1200px;
+            background: url(group.png);
+        }
+    .people p#ourrestaurant1 {
+        position: absolute;
+        color: var(--primary);
+        /* text-decoration: 3px solid white underline; */
+        text-underline-offset: 15px;
+        width: 260px;
+        height: 100px;
+        font-size: 16px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin-left: 363px;
+        margin-top: 0px;
+        padding: 3px 3px;
+    }
+        /* OUR RESTAURANT 2*/
+    .people p#ourrestaurant2 {
+        position: absolute;
+        color: var(--primary);
+        /* text-decoration: 3px solid white underline; */
+        text-underline-offset: 15px;
+        width: 260px;
+        height: 100px;
+        font-size: 16px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin-left: 363px;
+        margin-top: 126px;
+        padding: 3px 3px;
+    }
+        /* OUR RESTAURANT 3 */
+    .people p#ourrestaurant3 {
+        position: absolute;
+        color: var(--primary);
+        /* text-decoration: 3px solid white underline; */
+        text-underline-offset: 15px;
+        width: 260px;
+        height: 100px;
+        font-size: 16px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin-left: 363px;
+        margin-top: 257px;
+        padding: 3px 3px;
+    }
+
+    hr#hr1{
+        color: #ffffff9a;
+        position: absolute;
+        margin-top: 91px ;
+        margin-left: 284px;
+        width: 400px;
+    }
+    hr#hr2{
+        color: #ffffff9a;
+        position: absolute;
+        margin-top: 220px ;
+        margin-left: 284px;
+        width: 400px;
+    }
+    hr#hr3{
+        color: #ffffff9a;
+        position: absolute;
+        margin-top: 350px ;
+        margin-left: 284px;
+        width: 400px;
+    }
+    /* TARGETTING THE PARA PART  */
+p#ourrestaurant {
+    width: 384px;
+    color: white;
+    display: flex;
+    MARGIN-LEFT: 363px;
+}
+        /* OUR VALUES SECTION  */
+    section#ourvalues {
+        max-width: 1200px;
+        width: 1200px;
+        height: 800px;
+        /* width: 700px; */
+        background-image: url(section.png);
+    }
+    /* TARGETTING THE HEADING  */
+    h1#ourvaluesection {
+        margin-left: 210px;
+        padding-top: 45px;
+        font-size: 115px;
+    }
+    /* TARGETTING THE INSUDE SUB-HEADING PART  */
+    h2#ourval {
+        margin-left: 188px;
+        padding-top: 20px;
+        font-size: 30px;
+        margin-top: 0px;
+    }
+    p#values {
+        margin-left: 239px;
+    }
+
+        /* RESERVATION SECTION  */
+    
+    h2#break {
+        font-size: 65px;
+        margin-left: 205px;
+    }
+    /* TARGETTING THE PARAGRAPH PART  */
+    p#breaking {
+        font-size: 18px;
+        color: var(--primary);
+        width: 550px;
+        height: 100px;
+        margin-left: 300px;
+    }
+    /* TARGETTING THE MAKE A RESERVATION HEADING PART  */
+    h4#reserve {
+        height: 43px;
+        width: 663px;
+        color: var(--primary);
+        font-size: 32px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin-left: 256px;
+    }
+    /* TAGETTING THE BOOK ONLINE BUTTON  */
+    #reservation {
+        position: absolute;
+        width: 224px;
+        height: 66px;
+        border-color: var(--primary);
+        border-radius: 0px;
+        margin-left: 438px;
+        margin-top: 21px;
+    }
+
+            /* COME SECTION  */
+    section#come {
+        max-width: 1200px;
+        height: 400px;
+        WIDTH: 1200px;
+        background-color: #42363A;
+    }
+
+            /* MAP SECTION  */
+
+    section#visit {
+            max-width: 1200px;
+            height: 656px;
+            width: 1200px;
+            background-image: url(map.png);
+            }
+            /* TARGETTING THE PARAGRAPH OF VISIT US SECTION  */
+            section#visit p#visit {
+                position: absolute;
+                width: 500px;
+                height: 415px;
+                color: white;
+                padding: 117px 55px;
+                margin-top: 122px;
+                margin-left: 91px;
+                box-sizing: border-box;
+                font-size: 20px;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                background-color: rgb(106, 139, 15);
+                clip-path: polygon(0 0, 75% 0 ,100% 50%,75% 100% ,0 100%);
+                /* border-radius: 20px; */
+                transi: ;
+                font-size: 23px;
+                display: flex;
+            }
+            /* TARGETTING THE VISIT US SECTION  */
+            section#visit p#visit span#uniq {
+                font-size: 50px;
+                padding: 46px 9px;
+                padding-bottom: 5px;
+                font-family: 'Roboto', sans-serif;
+                font-weight: bold;
+                position: absolute;
+                color: white;
+                display: flex;
+                margin-top: -126px;
+                margin-left: 10px;
+            }
+            /* TARGETTING THE VISIT TIME SECTION  */
+            section#visit p#visit span {
+                font-size: 30px;
+                padding: 6px -4px;
+                padding-bottom: -1px;
+                font-family: 'Roboto', sans-serif;
+                font-weight: bold;
+                position: absolute;
+                color: white;
+                display: flex;
+                margin-top: 129px;
+                margin-left: -11px;
+            }
+
+
+    /* TOWARDS THE END SECTION  */
+    section#end {
+        max-width: 1200px;
+        height: 300px;
+        WIDTH: 1200px;
+        background-image: url(pink.png);
+    }
+/* TOWARDS END SECTION  */
+a#end1 {
+        margin-top: 100px;
+        margin-left: 20px;
+}
+    
+
+a#end2{
+    
+    margin-top: 100px;
+    margin-left: 200px;
+}
+a#end3 {
+    
+    margin-top: 100px;
+    margin-left: 350px;
+}
+a#end4 {
+    margin-left: 703px;
+    margin-top: 100px;
+}
+
+a#end5{
+    margin-top: 100px;
+    margin-left:864px ;
+}
+
+a#end6{
+    margin-top: 100px;
+    margin-left:1006px ;
+}
+
+h1#ourplace {
+    margin-left: 506px;
+}
+
+
+    /* FOOTER SECTION  */
+    footer {
+        background-color: var(--back);
+        color: var(--primary);
+        padding: 9px 20px;
+        width: 1200px;
+        text-align: center;
+    }
+
+    /* NO ZOOM CSS  */
+    
+
+
+}
+
